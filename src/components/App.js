@@ -1,4 +1,5 @@
 import React from 'react';
+import PokeList from './PokeList';
 import '../stylesheets/App.scss';
 
 class App extends React.Component {
@@ -79,7 +80,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <h1>holiii</h1>;
+    return <PokeList />;
   }
 }
 
