@@ -4,7 +4,7 @@ import '../stylesheets/App.scss';
 const PokeList = (props) => {
   console.log(props.pokemon);
   const htmlCode = props.pokemon.map((pokemon) => {
-    console.log('holiiiiii');
+    return <li key={pokemon.id}>holi</li>;
   });
   return (
     <div>
