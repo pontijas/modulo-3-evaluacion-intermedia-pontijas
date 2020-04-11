@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import pokemonData from '../data/pokemon';
-import '../stylesheets/App.scss';
 import PokeList from './PokeList';
+import '../stylesheets/App.scss';
 
 const App = () => {
   const [pokemon] = useState(pokemonData);
   return (
-    <div>
+    <div className="poke-app">
       <PokeList pokemon={pokemon} />
     </div>
   );

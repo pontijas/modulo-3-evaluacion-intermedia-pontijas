@@ -6,7 +6,7 @@ const PokeList = (props) => {
   // console.log(props.pokemon);
   const htmlCode = props.pokemon.map((pokemon) => {
     return (
-      <li key={pokemon.id}>
+      <li key={pokemon.id} className="poke-item">
         <PokeCard pokemon={pokemon} />
       </li>
     );

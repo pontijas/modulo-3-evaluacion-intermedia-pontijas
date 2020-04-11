@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/App.scss';
 
 const PokeCard = (props) => {
   // console.log('recibo el objeto entero', props.pokemon);
