@@ -1,17 +1,11 @@
 import React from 'react';
-import PokeList from './PokeList.js';
+import pokemonData from '../data/pokemon';
 import '../stylesheets/App.scss';
 
-const pokeInfo = class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = pokeInfo;
-    console.log('array', pokeInfo);
-  }
+console.log(pokemonData);
 
-  render() {
-    return <PokeList />;
-  }
+const App = () => {
+  return <div>holiii</div>;
 };
 
 export default App;
