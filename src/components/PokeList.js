@@ -3,11 +3,11 @@ import PokeCard from './PokeCard';
 import '../stylesheets/App.scss';
 
 const PokeList = (props) => {
-  console.log(props.pokemon);
+  // console.log(props.pokemon);
   const htmlCode = props.pokemon.map((pokemon) => {
     return (
       <li key={pokemon.id}>
-        <PokeCard />
+        <PokeCard pokemon={pokemon} />
       </li>
     );
   });
