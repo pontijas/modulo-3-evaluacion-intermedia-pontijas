@@ -1,5 +1,5 @@
 import React from 'react';
-import PokeCard from './PokeCard';
+import Pokemon from './Pokemon';
 import '../stylesheets/App.scss';
 
 const PokeList = (props) => {
@@ -7,7 +7,7 @@ const PokeList = (props) => {
   const htmlCode = props.pokemon.map((pokemon) => {
     return (
       <li key={pokemon.id} className="poke-item">
-        <PokeCard pokemon={pokemon} />
+        <Pokemon pokemon={pokemon} />
       </li>
     );
   });

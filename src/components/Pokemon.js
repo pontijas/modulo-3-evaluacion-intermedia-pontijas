@@ -1,13 +1,13 @@
 import React from 'react';
 
-const PokeCard = (props) => {
+const Pokemon = (props) => {
   // console.log('recibo el objeto entero', props.pokemon);
   return (
     <div>
-      <h2>{props.pokemon.name}</h2>
       <img src={props.pokemon.url} alt="pokemon" />
+      <h2>{props.pokemon.name}</h2>
     </div>
   );
 };
 
-export default PokeCard;
+export default Pokemon;
