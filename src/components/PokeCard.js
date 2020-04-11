@@ -1,16 +1,13 @@
 import React from 'react';
 import '../stylesheets/App.scss';
 
-class PokeCard extends React.Component {
-  render() {
-    return (
-      <div className="poke-card">
-        <img src={this.props.url} alt="pokemon" />
-        <h2>nombre</h2>
-        <small>tipo</small>
-      </div>
-    );
-  }
-}
+const PokeCard = (props) => {
+  return (
+    <div>
+      <h2>Holiii</h2>
+      <img src="" alt="pokemon" />
+    </div>
+  );
+};
 
 export default PokeCard;
